@@ -128,89 +128,25 @@ __Guillaume Lample, Miguel Ballesteros, Sandeep Subramanian, Kazuya Kawakami, Ch
 - add some hand-crafted features or domain-spefic knowledge that is different from char-level.
 
 ## __6. ReadList__
-- [Ballesteros et al.2015] Miguel Ballesteros, Chris Dyer,
-and Noah A. Smith. 2015. Improved transition-based
-dependency parsing by modeling characters instead of
-words with LSTMs. In Proceedings of EMNLP.
-- [Bengio et al.1994] Yoshua Bengio, Patrice Simard, and
-Paolo Frasconi. 1994. Learning long-term dependencies
-with gradient descent is difficult. Neural Networks,
-IEEE Transactions on, 5(2):157–166.
-- [Carreras et al.2002] Xavier Carreras, Llu´ıs Marquez, and `
-Llu´ıs Padro. 2002. Named entity extraction using ad- ´
-aboost, proceedings of the 6th conference on natural
-language learning. August, 31:1–4.
-- [Chiu and Nichols2015] Jason PC Chiu and Eric Nichols.
-2015. Named entity recognition with bidirectional
-lstm-cnns. arXiv preprint arXiv:1511.08308.
-- [Cucerzan and Yarowsky1999] Silviu Cucerzan and
-David Yarowsky. 1999. Language independent
-named entity recognition combining morphological
-and contextual evidence. In Proceedings of the 1999
-Joint SIGDAT Conference on EMNLP and VLC, pages
-90–99.
-- [Cucerzan and Yarowsky2002] Silviu Cucerzan and
-David Yarowsky. 2002. Language independent ner
-using a unified model of internal and contextual
-evidence. In proceedings of the 6th conference on
-Natural language learning-Volume 20, pages 1–4.
-Association for Computational Linguistics.
-- [Dyer et al.2015] Chris Dyer, Miguel Ballesteros, Wang
-Ling, Austin Matthews, and Noah A. Smith. 2015.
-Transition-based dependency parsing with stack long
-short-term memory. In Proc. ACL.
-- [Eisenstein et al.2011] Jacob Eisenstein, Tae Yano,
-William W Cohen, Noah A Smith, and Eric P Xing.
-2011. Structured databases of named entities from
-bayesian nonparametrics. In Proceedings of the First
-Workshop on Unsupervised Learning in NLP, pages
-2–12. Association for Computational Linguistics.
-- [Florian et al.2003] Radu Florian, Abe Ittycheriah,
-Hongyan Jing, and Tong Zhang. 2003. Named
-entity recognition through classifier combination. In
-Proceedings of the seventh conference on Natural
-language learning at HLT-NAACL 2003-Volume
-4, pages 168–171. Association for Computational
-Linguistics.
-- [Hoffart et al.2011] Johannes Hoffart, Mohamed Amir
-Yosef, Ilaria Bordino, Hagen Furstenau, Manfred ¨
-Pinkal, Marc Spaniol, Bilyana Taneva, Stefan Thater,
-and Gerhard Weikum. 2011. Robust disambiguation
-of named entities in text. In Proceedings of the Conference
-on Empirical Methods in Natural Language
-Processing, pages 782–792. Association for Computational
-Linguistics.
-- [Huang et al.2015] Zhiheng Huang, Wei Xu, and Kai Yu.
-2015. Bidirectional LSTM-CRF models for sequence
-tagging. CoRR, abs/1508.01991.
-- [Lafferty et al.2001] John Lafferty, Andrew McCallum,
-and Fernando CN Pereira. 2001. Conditional random
-fields: Probabilistic models for segmenting and labeling
-sequence data. In Proc. ICML.
-- [Luo et al.2015] Gang Luo, Xiaojiang Huang, Chin-Yew
-Lin, and Zaiqing Nie. 2015. Joint named entity recognition
-and disambiguation. In Proc. EMNLP.
-- [Qi et al.2009] Yanjun Qi, Ronan Collobert, Pavel Kuksa,
-Koray Kavukcuoglu, and Jason Weston. 2009. Combining
-labeled and unlabeled data with word-class distribution
-learning. In Proceedings of the 18th ACM
-conference on Information and knowledge management,
-pages 1737–1740. ACM.
-- [Ratinov and Roth2009] Lev Ratinov and Dan Roth.
-2009. Design challenges and misconceptions in
-named entity recognition. In Proceedings of the Thirteenth
-Conference on Computational Natural Language
-Learning, pages 147–155. Association for
-Computational Linguistics.
-- [Santos and Guimaraes2015] ˜ Cicero Nogueira dos Santos
-and Victor Guimaraes. 2015. Boosting named entity ˜
-recognition with neural character embeddings. arXiv
-preprint arXiv:1505.05008.
-- [Tjong Kim Sang and De Meulder2003] Erik F. Tjong
-Kim Sang and Fien De Meulder. 2003. Introduction
-to the conll-2003 shared task: Language-independent
-named entity recognition. In Proc. CoNLL.
-- [Tjong Kim Sang2002] Erik F. Tjong Kim Sang. 2002.
-Introduction to the conll-2002 shared task: Languageindependent
-named entity recognition. In Proc.
-CoNLL.
+- [Ballesteros et al.2015] Miguel Ballesteros, Chris Dyer, and Noah A. Smith. 2015. Improved transition-based
+dependency parsing by modeling characters instead of words with LSTMs. In Proceedings of EMNLP.
+- [Bengio et al.1994] Yoshua Bengio, Patrice Simard, and Paolo Frasconi. 1994. Learning long-term dependencies
+with gradient descent is difficult. Neural Networks, IEEE Transactions on, 5(2):157–166.
+- [Carreras et al.2002] Xavier Carreras, Llu´ıs Marquez, and `Llu´ıs Padro. 2002. Named entity extraction using ad- ´
+aboost, proceedings of the 6th conference on natural language learning. August, 31:1–4.
+- [Chiu and Nichols2015] Jason PC Chiu and Eric Nichols. 2015. Named entity recognition with bidirectional lstm-cnns. arXiv preprint arXiv:1511.08308.
+- [Cucerzan and Yarowsky1999] Silviu Cucerzan and David Yarowsky. 1999. Language independent named entity recognition combining morphological and contextual evidence. In Proceedings of the 1999 Joint SIGDAT Conference on EMNLP and VLC, pages 90–99.
+- [Cucerzan and Yarowsky2002] Silviu Cucerzan and David Yarowsky. 2002. Language independent ner using a unified model of internal and contextual evidence. In proceedings of the 6th conference on Natural language learning-Volume 20, pages 1–4. Association for Computational Linguistics.
+- [Dyer et al.2015] Chris Dyer, Miguel Ballesteros, Wang Ling, Austin Matthews, and Noah A. Smith. 2015. Transition-based dependency parsing with stack long short-term memory. In Proc. ACL.
+- [Eisenstein et al.2011] Jacob Eisenstein, Tae Yano, William W Cohen, Noah A Smith, and Eric P Xing. 2011. Structured databases of named entities from bayesian nonparametrics. In Proceedings of the First Workshop on Unsupervised Learning in NLP, pages 2–12. Association for Computational Linguistics.
+- [Florian et al.2003] Radu Florian, Abe Ittycheriah, Hongyan Jing, and Tong Zhang. 2003. Named entity recognition through classifier combination. In Proceedings of the seventh conference on Natural language learning at HLT-NAACL 2003-Volume 4, pages 168–171. Association for Computational Linguistics.
+- [Hoffart et al.2011] Johannes Hoffart, Mohamed Amir Yosef, Ilaria Bordino, Hagen Furstenau, Manfred ¨Pinkal, Marc Spaniol, Bilyana Taneva, Stefan Thater, and Gerhard Weikum. 2011. Robust disambiguation of named entities in text. In Proceedings of the Conference
+on Empirical Methods in Natural Language Processing, pages 782–792. Association for Computational Linguistics.
+- [Huang et al.2015] Zhiheng Huang, Wei Xu, and Kai Yu. 2015. Bidirectional LSTM-CRF models for sequence tagging. CoRR, abs/1508.01991.
+- [Lafferty et al.2001] John Lafferty, Andrew McCallum, and Fernando CN Pereira. 2001. Conditional random fields: Probabilistic models for segmenting and labeling sequence data. In Proc. ICML.
+- [Luo et al.2015] Gang Luo, Xiaojiang Huang, Chin-Yew Lin, and Zaiqing Nie. 2015. Joint named entity recognition and disambiguation. In Proc. EMNLP.
+- [Qi et al.2009] Yanjun Qi, Ronan Collobert, Pavel Kuksa, Koray Kavukcuoglu, and Jason Weston. 2009. Combining labeled and unlabeled data with word-class distribution learning. In Proceedings of the 18th ACM conference on Information and knowledge management, pages 1737–1740. ACM.
+- [Ratinov and Roth2009] Lev Ratinov and Dan Roth. 2009. Design challenges and misconceptions in named entity recognition. In Proceedings of the Thirteenth Conference on Computational Natural Language Learning, pages 147–155. Association for Computational Linguistics.
+- [Santos and Guimaraes2015] ˜ Cicero Nogueira dos Santos and Victor Guimaraes. 2015. Boosting named entity ˜ recognition with neural character embeddings. arXiv preprint arXiv:1505.05008.
+- [Tjong Kim Sang and De Meulder2003] Erik F. Tjong Kim Sang and Fien De Meulder. 2003. Introduction to the conll-2003 shared task: Language-independent named entity recognition. In Proc. CoNLL.
+- [Tjong Kim Sang2002] Erik F. Tjong Kim Sang. 2002. Introduction to the conll-2002 shared task: Languageindependent named entity recognition. In Proc. CoNLL.
